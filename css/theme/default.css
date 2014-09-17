@@ -146,3 +146,33 @@ body {
  *********************************************/
 .reveal .slide-number {
   color: #13daec; }
+
+
+
+
+
+
+
+
+
+
+.reveal ul, .reveal ul ul{
+  margin: 0 0 0 0;
+  list-style-type: none;
+  text-align: center;
+}
+
+.reveal ul ul{
+  font-size: 75%;
+}
+
+.reveal .websites{
+background-color: rgba(255, 107, 182, 0.75);
+background: rgba(255, 107, 182, 0.75);
+color: rgba(255, 107, 182, 0.75);
+
+height: 353px;
+width: 400px;
+  border-radius: 400px;
+}
+
