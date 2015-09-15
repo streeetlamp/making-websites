@@ -1,5 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=News+Cycle:400,700);
-@import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
+@import url(https://fonts.googleapis.com/css?family=Karla:400,400italic,700,700italic);
 /**
  * A simple theme for reveal.js presentations, similar
  * to the default theme. The accent color is darkblue.
@@ -11,20 +10,46 @@
  * GLOBAL STYLES
  *********************************************/
 body {
-  background: white;
-  background-color: white; }
+  background-color: #2B303B; 
+}
 
 .reveal {
-  font-family: "Lato", sans-serif;
+  font-family: "Karla", sans-serif;
   font-size: 36px;
   font-weight: normal;
-  letter-spacing: -0.02em;
-  color: black; }
+  color: white; 
+  -webkit-font-smoothing: antialiased;
+}
+
+.reveal .slides {
+  text-align: left;
+}
 
 ::selection {
   color: white;
   background: rgba(0, 0, 0, 0.99);
-  text-shadow: none; }
+  text-shadow: none; 
+}
+
+hr {
+  border: 0;
+  margin: 30px 0;
+  height: 2px;
+  background-color: white;
+}
+
+.reveal p {
+  line-height: 1.3em;
+}
+
+.reveal small {
+  line-height: 1.3em;
+}
+
+.reveal ul {
+  list-style: square;
+  line-height: 1.35em;
+}
 
 /*********************************************
  * HEADERS
@@ -36,21 +61,25 @@ body {
 .reveal h5,
 .reveal h6 {
   margin: 0 0 20px 0;
-  color: black;
-  font-family: "News Cycle", Impact, sans-serif;
-  line-height: 0.9em;
+  color: white;
+  line-height: 1em;
   letter-spacing: 0.02em;
   text-transform: none;
-  text-shadow: none; }
+  text-shadow: none; 
+}
 
-.reveal h1 {
-  text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2); }
+.reveal h1,
+.reveal h2,
+.reveal h3 {
+  font-weight: 700;
+}
+
 
 /*********************************************
  * LINKS
  *********************************************/
 .reveal a:not(.image) {
-  color: darkblue;
+  color: #F25F54;;
   text-decoration: none;
   -webkit-transition: color .15s ease;
   -moz-transition: color .15s ease;
@@ -59,9 +88,10 @@ body {
   transition: color .15s ease; }
 
 .reveal a:not(.image):hover {
-  color: #0000f1;
+  color: #F25F54;
   text-shadow: none;
-  border: none; }
+  border: none; 
+}
 
 .reveal .roll span:after {
   color: #fff;
@@ -91,40 +121,34 @@ body {
  *********************************************/
 .reveal .controls div.navigate-left,
 .reveal .controls div.navigate-left.enabled {
-  border-right-color: darkblue; }
+  border-right-color: #DDD; }
 
 .reveal .controls div.navigate-right,
 .reveal .controls div.navigate-right.enabled {
-  border-left-color: darkblue; }
+  border-left-color: #DDD; }
 
 .reveal .controls div.navigate-up,
 .reveal .controls div.navigate-up.enabled {
-  border-bottom-color: darkblue; }
+  border-bottom-color: #DDD; }
 
 .reveal .controls div.navigate-down,
 .reveal .controls div.navigate-down.enabled {
-  border-top-color: darkblue; }
+  border-top-color: #DDD; }
 
-.reveal .controls div.navigate-left.enabled:hover {
-  border-right-color: #0000f1; }
-
-.reveal .controls div.navigate-right.enabled:hover {
-  border-left-color: #0000f1; }
-
-.reveal .controls div.navigate-up.enabled:hover {
-  border-bottom-color: #0000f1; }
-
-.reveal .controls div.navigate-down.enabled:hover {
-  border-top-color: #0000f1; }
+.navigate-up, .navigate-down {
+  display: none;
+}
 
 /*********************************************
  * PROGRESS BAR
  *********************************************/
 .reveal .progress {
-  background: rgba(0, 0, 0, 0.2); }
+  background: rgba(0, 0, 0, 0.5); 
+  height: 3px;
+}
 
 .reveal .progress span {
-  background: darkblue;
+  background: yellow;
   -webkit-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
   -moz-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
   -ms-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);

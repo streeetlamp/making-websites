@@ -4,10 +4,10 @@
 	<head>
 		<meta charset="utf-8">
 
-		<title>reveal.js - The HTML Presentation Framework</title>
+		<title>Making a Portfolio Site</title>
 
-		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
-		<meta name="author" content="Hakim El Hattab">
+		<meta name="description" content="Creating an online portfolio">
+		<meta name="author" content="Cody Whitby, VCUarts">
 
 		<meta name="apple-mobile-web-app-capable" content="yes" />
 		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
@@ -15,7 +15,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 		<link rel="stylesheet" href="css/reveal.min.css">
-		<link rel="stylesheet" href="css/theme/default.css" id="theme">
+		<link rel="stylesheet" href="css/theme/simple.css" id="theme">
 
 		<!-- For syntax highlighting -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
@@ -42,207 +42,257 @@
 
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
-				<section data-background="lib/img/typing.gif">
-					<h1>making websites</h1>
-					<h3>easy online portfolios</h3>
-					<p><a target="_blank" href="https://github.com/luetkemj/making-websites">[download]</a></p>
-					<p><small><a target="_blank" href="http://luetkemj.com">luetkemj.com</a></small></p>
+				<section data-background="#F25F54">
+					<h2>A Brief Primer on Creating a Super Good Portfolio Site</h2>
+					<hr>
+					<p><small>
+						Who the hell am I?<br>
+						<strong>Cody Whitby, Senior Web Developer @ VCUarts</strong><br>
+						<strong>whitbycw@vcu.edu</strong>
+					</small></p>
+					<br>
+					<p><small>View Slides Online<br>
+						<strong>arts.vcu.edu/portfolio-slides</strong></small></p>
 				</section>
 
-				<section data-background="lib/img/speechless.gif">
+				<section>
 					<h2>Why?</h2>
 					<ul>
-						<li class="fragment">It's easy</li>
 						<li class="fragment">It's expected</li>
-						<li class="fragment">It's cheaper than mailers and a trip to NYC</li>
+						<li class="fragment">It's easy</li>
+						<li class="fragment">It's cheap</li>
 					</ul>
 				</section>
 
 				<section>
+					<h2>But how?</h2>
+					<p class="fragment">I can't code, definitely don't have the time to learn (plus that stuffs for nerds) and I'm not sure which of these portfolio building services are even good. What the hell is a domain or hosting, do I need one?</p>
+				</section>				
+
+				<section data-background="lib/img/knowledge.gif">
+				</section>
+
+				<section>
+					<h2>So what is a domain and hosting? Do I need them?</h2>
+					<p class="fragment">Hosting is a server that holds your website. <br>
+						A server is just a computer configured and built to let the internet see it and check out websites. <br>
+						So yes, you need hosting but a lot of the site builders mentioned later provide this themselves and your good.</p>
+				</section>
+
+				<section>
+					<h2>If you DO need hosting</h2>
+					<div class="fragment">
+						<p>Here are some recommendations:</p>
+						<ul>
+							<li><a href="https://asmallorange.com/">A Small Orange</a></li>
+							<li><a href="http://www.bluehost.com/">bluehost</a></li>
+							<li><a href="https://www.greengeeks.com/">GreenGeeks</a></li>
+						</ul>
+						<hr class="fragment">
+					</div>
+					<p class="fragment">Cheapest plan is almost always just fine. Should not be over $10 per month and more like $5 or less.</p>
+				</section>	
+
+				<section>
+					<h2>And about domains</h2>
+					<p class="fragment">A domain is just your sites address or URL.<br> 
+						Its like your home address, people could get to your place with direction but it's super useful having addresses.<br>
+						So yeah, get one of these too.
+					</p>
+				</section>
+
+				<section>
+					<h2>More about domains</h2>
+					<p class="fragment">#1 rule here is if you want one and it's available, <strong>buy it right now.</strong>
+					</p>
+					<p class="fragment">Second rule is make sure you renew it.</p>
+					<p class="fragment">Last thing, should be shortish and easy to tell someone.</p>
+					<hr class="fragment">
+					<p class="fragment">Oh and .com/.net/.org should be ~$10 per year</p>
+				</section>
+
+				<section>
+					<h2>Domain registrars</h2>
+					<p class="fragment">A lot of site building services or hosting providers will register a domain for you.</p>
+					<p class="fragment">Usually fine, but <strong>big recommendation for <a href="https://www.namecheap.com/">namecheap</a></strong>.</p>
+					<hr class="fragment">
+					<p class="fragment" style="color: yellow;">PLEASE DONT USE GODADDY</p>
+				</section>
+
+				<section data-background="#F25F54">
+					<h2>Actually building a portfolio site</h2>
+				</section>
+
+				<section>
+					<h2>Great places to start</h2>
+					<p class="fragment">
+						<strong><a href="http://squarespace.com/">Squarespace</a></strong>
+						<br>
+						<small>$8/month | Includes Hosting | Custom HTML/CSS for $18/m | Free domain first year, $20 after (namecheap wins) | Email $50/yr</small>
+					</p>
+					<hr class="fragment">
+					<p class="fragment">
+						<strong><a href="http://dunked.com/">Dunked</a></strong>
+						<br>
+						<small>$6-8/month | Includes Hosting | Custom HTML/CSS included | Simple | Must purchase domain elsewhere</small>
+					</p>
+					<hr class="fragment">
+					<p class="fragment">
+						<strong><a href="http://cargocollective.com/">Cargo</a></strong>
+						<br>
+						<small>$9/month | Includes Hosting | Custom HTML/CSS included | Must purchase domain elsewhere</small>
+					</p>
+				</section>
+
+				<section>
+					<h2>Be a Skeptic!</h2>
+					<p class="fragment">Try everything</p>
+				</section>
+
+				<section data-background="lib/img/diy.gif">
+					<h2>But I'm a do it myselfer</h2>
+				</section>
+
+				<section>
+					<h2>DIY Options</h2>
+					<ul>
+						<li class="fragment"><a href="https://wordpress.org/">Wordpress</a></li>
+						<li class="fragment"><a href="www.tumblr.com">Tumblr</a></li>
+						<li class="fragment"><a href="http://www.semplicelabs.com/">Semplice (wordpress)</a></li>
+						<li class="fragment"><a href="http://www.staceyapp.com/">Stacey</a></li>
+						<li class="fragment"><a href="http://www.secretarycms.com/">Secretary</a></li>
+						<li class="fragment"><a href="http://www.siteleaf.com/">Siteleaf</a></li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>HTML / CSS Resources</h2>
+					<ul>
+						<li class="fragment"><a target="_blank" href="https://tutsplus.com/course/30-days-to-learn-html-and-css/">Video Course</a></li>
+						<li class="fragment"><a target="_blank" href="http://www.codecademy.com/">Interactive Course</a></li>
+						<li class="fragment"><a target="_blank" href="http://learn.shayhowe.com/html-css/">Online Textbook</a></li>
+						<li class="fragment"><a href="http://www.dontfeartheinternet.com/">Don't Fear the Internet (video courses)</a></li>
+						<li class="fragment"><a href="http://webfieldmanual.com/">Web Field Manual</a></li>
+					</ul>
+				</section>
+
+				<section data-background="#F25F54">
+					<h2>Pro tips for sites</h2>
+				</section>
+
+				<section>
 					<h2>Keep it simple</h2>
+					<p class="fragment">Your site should be a platform to share your awesome work first and foremost. Think <a href="https://en.wikipedia.org/wiki/The_Crystal_Goblet">"The Crystal Goblet"</a></p>
 				</section>
 
-				<section data-background="lib/img/adhd.gif">
-					<h2>everyone on the internet has ADHD</h2>
+				<section>
+					<h2>Everyone on the internet has ADHD</h2>
+					<p class="fragment">Less stuff in the way of seeing work the better.</p>
 				</section>
 
-				<section data-background="lib/img/penguin.gif">
-					<h2>employers are busy people</h2>
-				</section>
-
-				<section data-background="lib/img/smaug.png">
+				<section>
 					<h2>Depth</h2>
 					<ul>
 						<li class="fragment">Relevant bits on the surface</li>
-						<li class="fragment">Reward those who dig deeper<br/><img src="lib/img/dwarves.gif"/></li>
+						<li class="fragment">Reward those who dig deeper</li>
 					</ul>
 				</section>
 				
-				<section data-background="lib/img/monty.jpg">
+				<section>
 					<h2>3 Questions</h2>
 					<ul>
-						<li class="fragment">Who are you?</li>
 						<li class="fragment">What do you do?</li>
-						<li class="fragment">How do I get in contact?</li>
-					</ul>
-				</section>
-				
-				<section data-background="lib/img/samjackson.gif">
-					<h2>Who are you?</h2>
-					<ul>
-						<li class="fragment">Short bio <span class="fragment">and maybe a photo</span>
-							<ul>
-								<li class="fragment">Expanded bio</li>
-								<li class="fragment">Artist's statement</li>
-							</ul>
-						</li>
+						<li class="fragment">Who are you?</li>
+						<li class="fragment">How do I contact you?</li>
 					</ul>
 				</section>
 
-				<section data-background="lib/img/officespace.png">
+				<section>
 					<h2>What do you do?</h2>
 					<ul>
 						<li class="fragment">Portfolio</li>
-						<li class="fragment">résumé / cv</li>
-						<li class="fragment">news / blog</li>
+						<li class="fragment">Résumé or CV</li>
+						<li class="fragment">News / Blog</li>
+					</ul>
+				</section>
+				
+				<section>
+					<h2>Who are you?</h2>
+					<ul>
+						<li class="fragment">Short bio <span class="fragment">and maybe a photo</span></li>
+						<li class="fragment">Artist's statement</li>
 					</ul>
 				</section>
 
-				
 <!-- portfolio -->
 
-				<section data-background="lib/img/limes.jpg">
-					<h2>Portfolios</h2>
-					<ul>
-						<li class="fragment">10-12 images</li>
-						<li class="fragment">offer details on a deeper level if needed</li>
-					</ul>
-				</section>
-
-				<section data-background="lib/img/advtime.gif">
+				<section>
 					<h2>How do I Portfolio?</h2>
 					<ul>
-						<li class="fragment">Connect the dots</li>
-						<li class="fragment">Make a story</li>
+						<li class="fragment"><strong>Big</strong>, clear and impactful images</li>
+						<li class="fragment">Have enough images per piece but not too many (best judgement / 8-12)</li>
+						<li class="fragment">Keep descriptions concise</li>
 						<li class="fragment">Have a justification for everything</li>
-							
 					</ul>
 				</section>
 
-				<section class="darken" data-background="lib/img/george.gif">
-					<h2>Portfolios</h2>
-					<ul>
-						<li>Learn to edit
-							<ul>
-								<li class="fragment">if you can't decide whether or not to include something... <span class="fragment">don't.</span></li>
-							</ul>
-						</li>
-					</ul>
+				<section>
+					<h2>Learn to edit</h2>
+					<p class="fragment">If you can't decide whether or not to include something... <span class="fragment">don't.</span></p>
+					<p class="fragment">Also please spell check</p>
 				</section>
-				
-<!-- portfolio -->
-				
+								
 
-			<section data-background="lib/img/tumbleweed.gif">
-				<h2>News / Blog</h2>
-				<ul>
-					<li class="fragment">Keep it current</li>
-					<!-- <li class="fragment"><img src="http://i.imgur.com/u78cEvz.jpg" alt="tumbleweed"></li> -->
-					<li class="fragment">or don't keep it at all</li>
-				</ul>
-			</section>
-
-			<section data-background="lib/img/gob.gif">
-				<h2>How do I contact you?</h2>
-				<ul>
-					<li class="fragment">Make it easy</li>
-					<li class="fragment">Email link in footer on every page</li>
-					<li class="fragment">Contact page with info</li>
-					<li class="fragment">Contact form</li>
-				</ul>
-			</section>
-
-
-			<section data-background="lib/img/owl.gif">
-				<h2>Okay, but How?</h2>
-			</section>
-
-			<section data-background="lib/img/jobs.gif">
-				<h2>the internet!</h2>
-			</section>
-
-			<section data-background="lib/img/marshmallow.png">
-				<ul>
-					<li><a target="_blank" href="https://wordpress.com/portfolios/">WordPress</a></li>
-					<li><a target="_blank" href="http://www.squarespace.com/tour/artists">Squarespace</a></li>
-					<li><a target="_blank" href="http://cargocollective.com/favorites">Cargo Collective</a></li>
-					<li><a target="_blank" href="https://prosite.com/home/examples">Behance Prosite</a></li>
-					<li><a target="_blank" href="http://dunked.com/examples">Dunked</a></li>
-					<li><a target="_blank" href="https://exposure.co/">Exposure</a></li>
-					<li><a target="_blank" href="http://www.zenfolio.com/zf/examples.aspx">Zenfolio</a></li>
-					<li><a target="_blank" href="http://www.wix.com/sample/website">Wix</a></li>
-					<li><a target="_blank" href="http://www.weebly.com/#themes">Weebly</a></li>
-				</ul>
-			</section>
-
-			<section data-background="lib/img/urkel.gif">
-				<h2>Be a Skeptic!</h2>
-				<ul>
-					<li class="fragment">Try everything</li>
-				</ul>
-			</section>
-
-
-			<section data-background="lib/img/diy.gif">
-				<h2>But I'm a Do it myselfer</h2>
-				<ul>
-					<li class="fragment"><a target="_blank" href="https://tutsplus.com/course/30-days-to-learn-html-and-css/">Video Course</a></li>
-					<li class="fragment"><a target="_blank" href="http://www.codecademy.com/">Interactive Course</a></li>
-					<li class="fragment"><a target="_blank" href="http://learn.shayhowe.com/html-css/">Online Textbook</a></li>
-				</ul>
+			<section>
+				<h2>News / Blogs</h2>
+					<p class="fragment">Keep it current <span class="fragment">or don't keep it at all</span></p>
 			</section>
 
 			<section>
-				<h2>Things to Remember...</h2>
+				<h2>How do I contact you?</h2>
 				<ul>
-					<li class="fragment">Who are you?</li>
-					<li class="fragment">What do you do?</li>
-					<li class="fragment">How do I get in contact?</li>
+					<li class="fragment">Make it easy</li>
+					<li class="fragment">Email address somewhere on every page</li>
+					<li class="fragment">Contact page with any more info</li>
+					<li class="fragment">Personally not a contact form fan but use judgement</li>
 				</ul>
 			</section>
-
 						
 			<section  data-background="lib/img/money.gif">
 				<h2>Making Money</h2>
 			</section>
 				
 				
-			<section data-background="lib/img/money.gif">
-				<ul>Crowdfunding
+			<section>
+				<h2>Crowdfunding</h2>
+				<ul>
 					<li><a href="http://www.patreon.com/" target="_blank">Patreon</a></li>
 					<li><a href="https://www.kickstarter.com/" target="_blank">Kickstarter</a></li>
 					<li><a href="http://www.indiegogo.com/" target="_blank">Indiegogo</a></li>
 				</ul>
 			</section>
 
-			<section data-background="lib/img/money.gif">
-				<ul>eCommerce
+			<section>
+				<h2>eCommerce</h2>
+				<ul>
 					<li><a href="http://bigcartel.com" target="_blank">Big Cartel</a></li>
 					<li><a href="http://www.shopify.com/" target="_blank">Shopify</a></li>
 				</ul>
 			</section>
 				
-			<section data-background="lib/img/money.gif">
-				<ul>Fullfillment
+			<section>
+				<h2>Fullfillment</h2>
+				<ul>
 					<li><a href="http://society6.com/" target="_blank">Society6</a></li>
 					<li><a href="https://gumroad.com/" target="_blank">Gum Road</a></li>
 				</ul>
 			</section>
 				
-			<section data-background="lib/img/money.gif">
-				<ul>Markets
+			<section>
+				<h2>Markets</h2>
+				<ul>
 					<li><a href="http://www.zibbet.com/" target="_blank">Zibbet</a></li>
-					<li><a href="http://www.storenvy.com/" target="_blank"></a></li>
+					<li><a href="http://www.storenvy.com/" target="_blank">Storenvy</a></li>
 					<li><a href="http://en.dawanda.com/" target="_blank">DaWanda</a></li>
 					<li><a href="http://www.bonanza.com/" target="_blank">Bonanza</a></li>
 					<li><a href="http://www.artfire.com/" target="_blank">ArtFire</a></li>
@@ -250,17 +300,12 @@
 					<li><a href="https://www.etsy.com/" target="_blank">Etsy</a></li>
 				</ul>
 			</section>
-						
 
-
-				<section data-background="lib/img/goodbye.gif">
-					<h1>making websites</h1>
-					<h3>easy online portfolios</h3>
-					<p><a target="_blank" href="https://github.com/luetkemj/making-websites">[download]</a></p>
-					<p><small><a target="_blank" href="http://luetkemj.com">luetkemj.com</a></small></p>
-				</section>
-
-
+			<section data-background="lib/img/goodbye.gif">
+				<h1>Thank You!</h1>
+				<p>View Slides Online<br>
+					<strong>arts.vcu.edu/portfolio-slides</strong></p>
+			</section>
 
 			</div>
 
